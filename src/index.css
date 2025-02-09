@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
+
+@import "tailwindcss";
+body {
+  direction: rtl;
+  font-family: "Noto Kufi Arabic", serif;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+.x{
+  
+ max-height:calc(100vh - 128px)
+}
+
+.ItemSlider {
+  width: calc(100vw - 120px);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none; 
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  background: black; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.slick-prev::after {
+  content: "←"; 
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 5px;
+  background-image: linear-gradient(#000000, #434343);
+
+  color: burlywood;
+}
+
+.slick-next::after {
+  content: "→"; 
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 5px;
+  background-image: linear-gradient(#000000, #434343);
+
+  color: burlywood;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px; 
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: red;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.shadow2 {
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+.imgg {
+  width: 350px;
+}
+.colored5 {
+ color: #fbab7e;
+}
+.colored {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+.colored2 {
+  background-image: linear-gradient(#bdc3c7, #2c3e50);
+}
+.colored3 {
+  background-image: linear-gradient(#42275a, #734b6d);
+}
+.colored4 {
+  background-color: #FAD961;
+  background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+  }
+.family{
+  font-family: "Noto Kufi Arabic", serif;
+
+}
