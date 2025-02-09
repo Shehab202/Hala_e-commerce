@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "json-server-auth --watch db.json --port 5000"
+    "start": "node server.js"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
